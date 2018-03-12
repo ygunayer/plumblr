@@ -1,14 +1,26 @@
 # plumblr
 A command-line utility that allows you to bulk-download all media from a given tumblr blog.
 
-Totally not a *"rewrite"* of [https://github.com/ygunayer/trustlr](ygunayer/trustlr) since it's technically not completed.
+**Warning:** This project is barely a work in progress, so it's not guaranteed to work perfectly.
 
 ## Usage
-The tool is still in WIP phase so it doesn't actually work. But when it does, use it like this:
+Specify the blog name as the first command line parameter and run the app using SBT or `java -jar`
 
 ```
-$ plumblr (blog-name)
-``` 
+$ java -jar plumblr (blog name)
+```
+
+## TODO
+- Allow setting the following options:
+  - Target folder
+  - Parallelism/throttling
+  - Filename pattern
+  - Types of media to download
+  - Conflict resolution mode (overwrite/ignore)
+- Set the last modified dates of output files
+- Fix the jumpy progress bar somehow
+- Add more tests
+- Output streams may not be closed properly (?)
 
 ## License
 MIT
