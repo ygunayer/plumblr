@@ -17,6 +17,7 @@ $ java -jar plumblr (blog name)
   - Filename pattern
   - Types of media to download
   - Conflict resolution mode (overwrite/ignore)
+- Handle more kinds of media (Instagram, Pinterest, etc.)
 - Set the last modified dates of output files
 - Fix the jumpy progress bar somehow
 - Add more tests
